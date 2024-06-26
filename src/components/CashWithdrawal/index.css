@@ -1,0 +1,110 @@
+.container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sub-container {
+  width: 80%;
+  border-radius: 10px;
+  background-color: #150b3e;
+  max-width: 700px;
+  padding: 20px;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 768px) {
+  .sub-container {
+    padding: 40px;
+    border-radius: 20px;
+  }
+}
+.username {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+@media screen and (min-width: 768px) {
+  .icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    font-size: 40px;
+  }
+}
+.name {
+  color: #d4d2db;
+  font-size: 15px;
+  margin-left: 15px;
+  font-weight: 400;
+}
+@media screen and (min-width: 768px) {
+  .name {
+    font-size: 30px;
+    margin-left: 30px;
+  }
+}
+.Balance-bag {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+.description {
+  color: #585076;
+  font-size: 15px;
+  margin-top: 10px;
+}
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+}
+.cash {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+@media screen and (min-width: 768px) {
+  .cash {
+    font-size: 50px;
+  }
+}
+.currency {
+  color: #585076;
+  font-size: 10px;
+}
+@media screen and (min-width: 768px) {
+  .currency {
+    font-size: 20px;
+  }
+}
+.heading {
+  font-size: 15px;
+  color: #d4d2db;
+  font-weight: 400;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 35px;
+  }
+}
+.amount-list {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  padding: 0px;
+}

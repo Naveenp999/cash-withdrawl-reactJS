@@ -1,0 +1,16 @@
+.button {
+  width: 80px;
+  border: 2px solid white;
+  color: white;
+  background-color: #382f5a;
+  padding: 10px;
+  font-size: 20px;
+  margin: 10px;
+  border-radius: 10px;
+}
+@media screen and (min-width: 768px) {
+  .button {
+    width: 290px;
+    font-size: 40px;
+  }
+}
